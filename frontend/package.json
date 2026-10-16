@@ -1,0 +1,33 @@
+{
+  "name": "nexo-financeiro",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint src tests vite.config.ts --deny-warnings",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "node --experimental-strip-types --test tests/*.test.js"
+  },
+  "dependencies": {
+    "lucide-react": "^1.44.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "oxlint": "^1.79.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "@types/qrcode": "^1.5.6"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

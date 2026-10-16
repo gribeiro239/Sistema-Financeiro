@@ -1,0 +1,13 @@
+@Financeiro.Api_HostAddress = http://localhost:5090
+
+### Saúde da API (público)
+GET {{Financeiro.Api_HostAddress}}/api/health
+Accept: application/json
+
+### Especificação OpenAPI (somente em desenvolvimento)
+GET {{Financeiro.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+### Sessão atual (requer cookie nexo.session obtido pelo login)
+GET {{Financeiro.Api_HostAddress}}/api/auth/me
+Accept: application/json

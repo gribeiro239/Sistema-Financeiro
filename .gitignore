@@ -1,0 +1,39 @@
+# Dependências e artefatos de compilação
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/bin/
+**/obj/
+*.tsbuildinfo
+TestResults/
+coverage/
+
+# Dados locais, anexos, backups e chaves
+**/App_Data/
+backend/tests/**/TestData/
+*.db
+*.db-shm
+*.db-wal
+*.nexobak
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.Production.json
+*.local
+
+# Logs e preferências pessoais
+*.log
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db

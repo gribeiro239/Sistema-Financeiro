@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Financeiro.Api/Financeiro.Api.csproj" />
+    <Project Path="src/Financeiro.Application/Financeiro.Application.csproj" />
+    <Project Path="src/Financeiro.Domain/Financeiro.Domain.csproj" />
+    <Project Path="src/Financeiro.Infrastructure/Financeiro.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Financeiro.Operations.Tests/Financeiro.Operations.Tests.csproj" />
+  </Folder>
+</Solution>
